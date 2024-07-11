@@ -55,5 +55,16 @@ body {
     justify-content: center;
       
       }
+
+
+ /* Tooltip styles */
+ .tooltip-inner {
+    background-color: hotpink;
+  }
+  
+  .tooltip.bs-tooltip-auto[x-placement^="bottom"] .arrow::before,
+  .tooltip.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: hotpink;
+  }
   
   
