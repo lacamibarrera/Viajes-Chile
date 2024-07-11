@@ -67,4 +67,27 @@ body {
     border-bottom-color: hotpink;
   }
   
+  footer {
+    background-color: #06ddf9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
   
+  footer p {
+    color: white;
+    margin-right: 20px;
+  }
+  
+  footer .social-icons {
+    color: white;
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  
+  footer .social-icons i {
+    font-size: 24px;
+  }
